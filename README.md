@@ -105,9 +105,11 @@ namespace DCMS.Client.CustomViews
       DashSize="10"
       WhiteSize="10"
       Margin="0,10,0,0" />
-      
- -  You can do this layout
+  ```
   
+ -  You can do this layout
+ 
+```csharp
   <Grid Grid.Row="4"
         Grid.Column="0"
         Grid.ColumnSpan="2"
