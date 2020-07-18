@@ -4,7 +4,8 @@ In xamarin.forms Draw dotted line effect
 
 <html>
 <p align="center">
-  <img src="https://github.com/dorisoy/DrawDottedLine/blob/master/Screenshot.jpg?raw=true" height="1000">
+  <img src="https://github.com/dorisoy/DrawDottedLine/blob/master/Screenshot_1.jpg?raw=true" height="1000">
+  <img src="https://github.com/dorisoy/DrawDottedLine/blob/master/Screenshot_2.jpg?raw=true" height="1000">
 </p>
 </html>
 
