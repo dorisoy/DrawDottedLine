@@ -105,5 +105,39 @@ namespace DCMS.Client.CustomViews
       DashSize="10"
       WhiteSize="10"
       Margin="0,10,0,0" />
+      
+ -  You can do this layout
+  
+  <Grid Grid.Row="4"
+        Grid.Column="0"
+        Grid.ColumnSpan="2"
+        IsVisible="{Binding IsLast}">
+      <Grid.RowDefinitions>
+          <RowDefinition Height="20" />
+      </Grid.RowDefinitions>
+      <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="10" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="10" />
+      </Grid.ColumnDefinitions>
+      <BoxView BackgroundColor="#dddddd"
+               Grid.Column="0"
+               CornerRadius="50"
+               VerticalOptions="Center"
+               Margin="-10,0,0,0" />
+      <custom:DashedLineView HeightRequest="10"
+                             Grid.Column="1"
+                             VerticalOptions="Start"
+                             HorizontalOptions="Fill"
+                             LineColor="#dddddd"
+                             DashSize="10"
+                             WhiteSize="10"
+                             Margin="0,10,0,0" />
+      <BoxView BackgroundColor="#dddddd"
+               Grid.Column="2"
+               CornerRadius="50"
+               VerticalOptions="Center"
+               Margin="0,0,-10,0" />
+  </Grid>
   ```
   
