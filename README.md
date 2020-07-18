@@ -142,4 +142,7 @@ namespace DCMS.Client.CustomViews
                Margin="0,0,-10,0" />
   </Grid>
   ```
-  
+  # Dependencies
+- SkiaSharp
+- SkiaSharp.Views
+- SkiaSharp.Views.Forms
